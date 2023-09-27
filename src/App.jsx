@@ -3,7 +3,7 @@ import { fetchData } from './utils/api';
 import { calculatePower } from './utils/calc';
 import Table from './components/Table';
 import Pagination from './components/Pagination';
-import Header from './components/header';
+import Header from './components/Header';
 import './styles.css'
 import { filterPerName } from './utils/filters';
 

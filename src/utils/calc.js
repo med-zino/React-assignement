@@ -1,5 +1,3 @@
-// pokemonUtils.js
-
 export function calculatePower(data) {
     return data.map((pokemon) => ({
       ...pokemon,
