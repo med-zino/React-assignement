@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+     border-radius: 8px; 
+    overflow: hidden; 
+    border: 1px solid rgb(241 245 249/ 1 );
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+td {
+    height: 30px;
+    border-bottom: 1px solid rgb(241 245 249/ 1 );
+}
+
+thead {
+    background-color: #e0eef1;
+    height: 45px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}
+
+input {
+    margin-top: 30px;
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(220, 224, 228);
+    outline: none;
+}
+
+input:focus {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none !important;
+
+}
+
+
+input:first-of-type {
+    margin-right: 65px;
+}
+
+p {
+    text-align: left;
+    margin-left: 7%;
+}
+
+svg {
+    font-size: 20px;
+    vertical-align: bottom;
+    margin-bottom: 7px;
+}
+
+
+.header {
+    border: 1px solid rgb(241 245 249/ 1 );
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 7px;
+}
+
+
+.pagination {
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 12%;
+}
+
+.disabledClick {
+    color: gray;
+}
+
+.itemsPerPage {
+    width: 50px;
+    margin-left: 4px;
+}
