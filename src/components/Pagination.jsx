@@ -3,8 +3,6 @@ import {BiChevronRight , BiChevronLeft} from 'react-icons/bi'
 
 function Pagination({ currentPage, totalPages, onPrevPage, onNextPage , setItemsPerPage   }) {
 
-  const itemsPerPage = 10;
-
   const handlePrevClick = () => {
     if (currentPage > 1) {
       onPrevPage();
